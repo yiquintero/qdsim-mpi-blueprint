@@ -1,0 +1,19 @@
+name: qdsim-mpi
+channels:
+  - conda-forge
+  - mosek
+dependencies:
+  - python=3.9.18
+  - pip
+  - mosek
+  - pyscipopt
+  - mpi4py
+  - numpy==1.26.4
+  - matplotlib==3.8.0
+  - cvxpy==1.4.1
+  - tqdm==4.66.1
+  - jupyter
+  - setuptools
+  - pip:
+    - pyplnoise==1.4
+    - ray==2.7.1
