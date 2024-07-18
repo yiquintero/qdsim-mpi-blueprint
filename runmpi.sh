@@ -17,7 +17,7 @@ source "$(conda info --base)/etc/profile.d/conda.sh"
 
 # Activate conda, run job, deactivate conda
 conda activate qdsim-mpi
-mpirun -np 4 python helloworld.py
+mpirun -np 4 python usermodule.py
 conda deactivate
 
 seff $SLURM_JOB_ID

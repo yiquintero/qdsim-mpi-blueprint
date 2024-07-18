@@ -1,0 +1,23 @@
+Data on process 0 is {'name': 'Alice Johnson', 'age': 28, 'city': 'New York', 'occupation': 'Software Engineer'}.
+Data on process 0 is {'name': 'Bob Smith', 'age': 34, 'city': 'San Francisco', 'occupation': 'Data Scientist'}.
+Data on process 1 is {'name': 'Carol Martinez', 'age': 25, 'city': 'Los Angeles', 'occupation': 'Graphic Designer'}.
+Data on process 1 is {'name': 'David Brown', 'age': 45, 'city': 'Chicago', 'occupation': 'Project Manager'}.
+Data on process 2 is {'name': 'Emma Wilson', 'age': 30, 'city': 'Seattle', 'occupation': 'UX Researcher'}.
+Data on process 2 is {'name': 'Frank Clark', 'age': 50, 'city': 'Austin', 'occupation': 'Sales Director'}.
+Data on process 3 is {'name': 'Grace Lee', 'age': 22, 'city': 'Boston', 'occupation': 'Marketing Coordinator'}.
+Data on process 3 is {'name': 'Henry Turner', 'age': 39, 'city': 'Miami', 'occupation': 'Financial Analyst'}.
+Data on process 3 is {'name': 'Isabella White', 'age': 27, 'city': 'Denver', 'occupation': 'Product Manager'}.
+Data on process 3 is {'name': 'Jack Harris', 'age': 33, 'city': 'Houston', 'occupation': 'Mechanical Engineer'}.
+/usr/bin/which: no fi_info in (/apps/generic/miniconda3/4.12.0/condabin:/apps/generic/miniconda3/4.12.0/condabin:/home/yquinterolares/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/bin/remote-cli:/home/yquinterolares/.local/bin:/home/yquinterolares/bin:/cm/shared/apps/slurm/current/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin)
+Job ID: 4200286
+Cluster: delftblue
+User/Group: yquinterolares/domain users
+State: RUNNING
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:02
+CPU Efficiency: 4.17% of 00:00:48 core-walltime
+Job Wall-clock time: 00:00:12
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 4.00 GB (1.00 GB/core)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
