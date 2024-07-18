@@ -1,5 +1,6 @@
 from mpi4py import MPI
 import sys
+import inputparameters
 
 def print_hello(rank, size, name):
     msg = "Hello World! I am process {0} of {1} on {2}.\n"
@@ -18,7 +19,7 @@ if __name__ == "__main__":
 
     if (rank == 0):
         # Initialize list of dictionaries
-        data = [{'a': 1}, {'b': 2}, {'c': 3}, {'d': 4}]
+        data = inputparameters.get_input_data()
     else:
         data = None
     
