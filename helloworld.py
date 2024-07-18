@@ -17,10 +17,13 @@ if __name__ == "__main__":
     print_hello(rank, comm_size, name)
 
     if (rank == 0):
-        data = [0, 1, 2, 3]
+        # Initialize list of dictionaries
+        data = [{'a': 1}, {'b': 2}, {'c': 3}, {'d': 4}]
     else:
         data = None
+    
+    # Distribute the elements of the list of dictionaries among the ranks
+    # This requires: data.size == comm.size
     data = comm.scatter(data, root=0)
 
     print_data(rank, data)
-
